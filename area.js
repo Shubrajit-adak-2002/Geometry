@@ -18,7 +18,7 @@ function calculateRectangle(){
     inputValidation(width, length);
 
     const area = width * length;
-
+    setElement('r-area', area);
     addToCalculateEntry('Rectangle', area);
 }
 // This function calculate Parallelogram area
